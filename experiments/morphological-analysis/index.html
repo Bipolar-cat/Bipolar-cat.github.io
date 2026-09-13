@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Innarva 形態素解析テスト</title>
+</head>
+<body>
+  <h1>Innarva 形態素解析テスト</h1>
+
+  <textarea id="input" rows="6" cols="70">昨日はあまり眠れなくて昼間に少し寝てしまった</textarea>
+
+  <p>
+    <button id="run">解析する</button>
+  </p>
+
+  <h2>形態素解析結果</h2>
+  <pre id="tokens">未解析</pre>
+
+  <h2>頻出単語候補</h2>
+  <pre id="words">未解析</pre>
+
+  <h2>文節候補</h2>
+  <pre id="bunsetsu">未解析</pre>
+
+  <script type="module" src="./test.js"></script>
+</body>
+</html>
