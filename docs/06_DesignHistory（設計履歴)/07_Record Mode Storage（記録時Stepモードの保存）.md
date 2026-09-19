@@ -66,4 +66,18 @@ Unknownの画面表示方法は、本決定の対象外とし、別途「過去�
 - 変更なし：既存の保存済みlogデータ
 - `docs/06_DesignHistory（設計履歴）/07_Record Mode Storage（記録時Stepモードの保存）.md`（本ファイル）
 - `docs/06_DesignHistory（設計履歴）/00_DesignHistory（設計履歴).md`（索引追記）
-- （別途確認）`docs/04_AnalysisPolicy (分析)/04_Analysis Policy（分析方針）.md`3章への`mode`追記
+- `docs/04_AnalysisPolicy (分析)/04_Analysis Policy（分析方針）.md`3章への`mode`追記（反映済み。下記参照）
+
+## Related Doce Update（関連doce反映）
+
+### 2026-09-19（続き）
+
+`04_Analysis Policy`3章（Analysis Targets）への`mode`追記について、三者確認を経て、開発者のローカル環境へ反映した。
+
+- 3章の対象記述に「入力時のStepモード（`mode`）」を追加。
+- `mode`が保存されていない既存記録は、Stepモードを不明として扱う旨を明記。
+- 記録された`mood` / `cond`の値からStepモードを推測して補完しない旨を明記。
+
+`git diff`により、上記3点以外の変更がないことを確認した。
+
+コード実装（`js/script.js`等）は、この時点ではまだ行っていない。
