@@ -25,6 +25,6 @@ Markdownファイルは、`番号_English Title（日本語タイトル）.md`�
 | 2026-09-02 | `05_Research Policy Recovery and Adoption（Research Policyの復旧と正式採用）.md` | 05_Research Policy Recovery and Adoption（Research Policyの復旧と正式採用） | 8/9頃のInnerNote時代Research Policyを回収・照合し、Research Policyの構成・基本原則を三者合意。3段階事実確認方式の正式採用、Historyの位置づけ復活を含む。正式本文はその後の最終レビューを経て確定。 |
 | 2026-09-02 | `06_Filename Convention and Top-Level Docs Structure（ファイル命名規則とトップレベルdocs構成の確定）.md` | 06_Filename Convention and Top-Level Docs Structure（ファイル命名規則とトップレベルdocs構成の確定） | トップレベル`docs/`構成を00〜10で確定（11以降は必要性確認まで新設しない）。Markdownファイル名を`番号_English Title（日本語タイトル）.md`形式に統一 |
 | 2026-09-05 | `07_Analysis Policy Recovery and Adoption（Analysis Policyの復旧と正式採用）.md` | 07_Analysis Policy Recovery and Adoption（Analysis Policyの復旧と正式採用） | 8/9頃のInnerNote時代Analysis Policy Ver.0.2（11項目）を回収・照合し、`04_Analysis Policy（分析方針）.md`を正式採用。長い時間軸で見ることと将来予測の分離、☆付き記録の復元、Step3/Step10の確認等を含む |
-
+| 2026-09-18 | `06_Step10 Range Unification（Step10の入力範囲統一）.md` | Step10 Range Unification（Step10の入力範囲統一） | Step10の入力範囲について文書・UI・実装間にあった0〜10／1〜10の不一致を確認し、0〜10への統一を三者で合意。`index.html`の表示と`js/chart.js`のY軸最小値を修正し、既存ログのデータ移行は行わない。 |
 ※ この一覧は個別履歴ファイルが追加されるたびに更新します。
 ※ `CLAUDE.md`本体はプロジェクトルート直下にあり、`docs/06_DesignHistory/`配下にはその変更履歴ファイルのみが置かれます。
