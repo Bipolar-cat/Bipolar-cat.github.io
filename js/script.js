@@ -173,6 +173,8 @@ function saveData() {
     cond: selectedCond,
 
     note: note,
+
+    mode: getMode(),
   });
 
   saveLogs(logs);
