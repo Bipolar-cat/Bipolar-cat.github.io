@@ -30,6 +30,10 @@ Markdownファイルは、`番号_English Title（日本語タイトル）.md`�
 | 2026-09-19 | `06_Step10 Range Unification（Step10の入力範囲統一）.md` | Step10 Range Unification（Step10の入力範囲統一） | Step10の入力範囲が文書・UI・コード間で0〜10／1〜10と不一致であることが確認され、開発者（まき）が0〜10への統一を決定。`index.html`・`js/chart.js`の最小変更で三者合意。データ移行なし |
 | 2026-09-19 | `07_Record Mode Storage（記録時Stepモードの保存）.md` | Record Mode Storage（記録時Stepモードの保存） | 新規記録に入力時のStepモード（mode）を保存する仕様を三者合意。既存logはUnknownとして扱い、推測補完・データ移行はしない。仕様決定段階で記録、実装完了後に同ファイルへ追記予定 |
 
+| 2026-09-25 | `08_2026-09-25 Crisis Safety Document Creation, Help UI Specification, and DesignHistory Numbering Policy（Crisis Safety文書の新規作成、Help UI仕様の確定、およびDesignHistory採番方針の決定）.md` | 08_2026-09-25 Crisis Safety Document Creation, Help UI Specification, and DesignHistory Numbering Policy（Crisis Safety文書の新規作成、Help UI仕様の確定、およびDesignHistory採番方針の決定） | Crisis Safety文書の新規作成、Help UI仕様、およびDesignHistoryの採番・過去記録の扱い方に関する5原則を三者合意。実ファイル未確認の旧08・09は削除せず過去の記録として残し、実ファイルとして空いている`08`を本entryに使用 |
+
 ※ この一覧は個別履歴ファイルが追加されるたびに更新します。
 ※ `CLAUDE.md`本体はプロジェクトルート直下にあり、`docs/06_DesignHistory/`配下にはその変更履歴ファイルのみが置かれます。
 ※ 2026-09-19、開発者（まき）がGitで実ファイルを直接確認した。`06_Filename Convention...`・`08_analysis.js Specification Review`・`09_analysis.js Implementation Design`の3件は、対応するDesignHistory個別ファイルの実在が確認できず、本行が正式な決定事項として確定しているかどうか自体をUnknownとして扱う（08・09は現行`analysis.js`との不一致も確認されている）。`07_Analysis Policy Recovery and Adoption`は、DesignHistory側の個別ファイルとしては未確認だが、同名の内容を含む文書が`docs/04_AnalysisPolicy (分析)/`配下に実在することを確認した。いずれも原因は推測せず、記載内容は削除しない。
+
+※ 2026-09-25、DesignHistoryの採番・過去記録の扱い方について三者合意。新規entryの番号は現在確認できる実ファイルを基準とし、索引にのみ存在して実ファイルが確認できない番号は予約済みとは扱わない。これに基づき、実ファイルとして空いている`08`を2026-09-25のCrisis Safety関連entryに使用した。索引に残る旧`08_analysis.js Specification Review`・`09_analysis.js Implementation Design`の記載は削除せず、正式決定として確定していたかどうか自体がUnknownな過去の記録として維持する。新しい`08`（Crisis Safety関連）とは別内容である。詳細および本注記追加の理由は、新しい`08`のDesignHistoryを参照。
