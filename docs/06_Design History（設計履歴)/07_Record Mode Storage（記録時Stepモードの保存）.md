@@ -64,9 +64,9 @@ Unknownの画面表示方法は、本決定の対象外とし、別途「過去�
 - （実装時）`js/script.js`（記録保存時に`mode`を追加）
 - （実装時）`js/logs.js`（`mode`の参照方法、必要な場合）
 - 変更なし：既存の保存済みlogデータ
-- `docs/06_DesignHistory（設計履歴）/07_Record Mode Storage（記録時Stepモードの保存）.md`（本ファイル）
-- `docs/06_DesignHistory（設計履歴）/00_DesignHistory（設計履歴).md`（索引追記）
-- `docs/04_AnalysisPolicy (分析)/04_Analysis Policy（分析方針）.md`3章への`mode`追記（反映済み。下記参照）
+- `docs/06_Design History（設計履歴）/07_Record Mode Storage（記録時Stepモードの保存）.md`（本ファイル）
+- `docs/06_Design History（設計履歴）/00_Design History（設計履歴).md`（索引追記）
+- `docs/04_Analysis Policy (分析)/04_Analysis Policy（分析方針）.md`3章への`mode`追記（反映済み。下記参照）
 
 ## Related Doce Update（関連doce反映）
 

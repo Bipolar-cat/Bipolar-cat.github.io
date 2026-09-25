@@ -49,5 +49,5 @@ Step10の入力範囲を「0〜10」に統一する。
 
 - `index.html`
 - `js/chart.js`
-- `docs/06_DesignHistory（設計履歴)/06_Step10 Range Unification（Step10の入力範囲統一）.md`
-- `docs/06_DesignHistory（設計履歴)/00_DesignHistory（設計履歴).md`（索引追記）
+- `docs/06_Design History（設計履歴)/06_Step10 Range Unification（Step10の入力範囲統一）.md`
+- `docs/06_Design History（設計履歴)/00_Design History（設計履歴).md`（索引追記）

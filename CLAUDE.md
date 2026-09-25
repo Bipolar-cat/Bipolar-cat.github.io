@@ -145,9 +145,9 @@ docs/
 ├── 01_Overview.md
 ├── 02_Specification.md
 ├── 03_UI_Spec.md
-├── 04_AnalysisPolicy.md
+├── 04_Analysis Policy (分析)/
 ├── 05_DesignGuide.md
-├── 06_DesignHistory.md
+├── 06_Design History（設計履歴)/
 ├── 07_Roadmap.md
 └── 08_Glossary.md
 ```
@@ -457,8 +457,8 @@ Innarvaの文書は、以下2種類の読み手を区別します。
 | `03_UI_Spec.md`（画面表示文言） | 一般 | 平易 |
 | `00_Constitution.md` | 両方 | 平易かつ正確 |
 | `02_Specification.md` | 開発者 | 専門用語可 |
-| `04_AnalysisPolicy.md` | 開発者・確認する専門家 | 専門用語可（定義済み用語） |
-| `06_DesignHistory.md` | 開発者 | 専門用語可 |
+| `04_Analysis Policy (分析)/` | 開発者・確認する専門家 | 専門用語可（定義済み用語） |
+| `06_Design History（設計履歴)/` | 開発者 | 専門用語可 |
 | `08_Glossary.md` | 両方 | 専門用語の平易な定義 |
 | `09_Research/` | 開発者・確認する専門家 | 専門用語可 |
 
@@ -493,7 +493,7 @@ Innarvaの文書は、以下2種類の読み手を区別します。
 重要な設計変更は、
 
 ```text
-docs/06_DesignHistory.md
+docs/06_Design History（設計履歴)/
 ```
 
 に記録します。
@@ -765,9 +765,9 @@ docs/
 ├── 01_Overview.md
 ├── 02_Specification.md
 ├── 03_UI_Spec.md
-├── 04_AnalysisPolicy.md
+├── 04_Analysis Policy (分析)/
 ├── 05_DesignGuide.md
-├── 06_DesignHistory.md
+├── 06_Design History（設計履歴)/
 ├── 07_Roadmap.md
 └── 08_Glossary.md
 

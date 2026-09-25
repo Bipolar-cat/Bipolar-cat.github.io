@@ -123,9 +123,9 @@ docs/
 ├── 01_Overview（概要）
 ├── 02_Specification.md（仕様）
 ├── 03_UI_Spec.md
-├── 04_AnalysisPolicy.md（分析）
+├── 04_Analysis Policy (分析)/
 ├── 05_DesignGuide.md
-├── 06_DesignHistory.md
+├── 06_Design History（設計履歴)/
 ├── 07_Roadmap.md（将来）
 ├── 08_Glossary.md（共通言語）
 └── 09_Research（調査・研究）
@@ -330,8 +330,8 @@ Innarvaの文書は、以下2種類の読み手を区別します。
 | `03_UI_Spec.md`（画面表示文言） | 一般 | 平易 |
 | `00_Constitution.md` | 両方 | 平易かつ正確 |
 | `02_Specification.md` | 開発者 | 専門用語可 |
-| `04_AnalysisPolicy.md` | 開発者・確認する専門家 | 専門用語可（定義済み用語） |
-| `06_DesignHistory.md` | 開発者 | 専門用語可 |
+| `04_Analysis Policy (分析)/` | 開発者・確認する専門家 | 専門用語可（定義済み用語） |
+| `06_Design History（設計履歴)/` | 開発者 | 専門用語可 |
 | `08_Glossary.md` | 両方 | 専門用語の平易な定義 |
 | `09_Research/` | 開発者・確認する専門家 | 専門用語可 |
 
@@ -355,11 +355,11 @@ Innarvaの文書は、以下2種類の読み手を区別します。
 
 ## 10. Design History（変更履歴の記録）
 
-重要な設計変更・doce変更・code変更は、`docs/06_DesignHistory.md` に一元記録します（doce・codeを分けず、プロジェクト全体の判断経緯として管理／共通指示書⑥Change History参照）。
+重要な設計変更・doce変更・code変更は、`docs/06_Design History（設計履歴)/`配下の個別履歴文書に一元記録します（doce・codeを分けず、プロジェクト全体の判断経緯として管理／共通指示書⑥Change History参照）。
 
 必要に応じて、日付・変更前・変更後・変更理由・決定内容・提案者・三者での議論経緯・影響するファイル／機能を記録します。記録フォーマットや粒度は現時点で固定しません。
 
-Gitのコミット履歴は「何を変更したか」という技術的な記録、`06_DesignHistory.md` は「なぜ・どう議論して決めたか」を記録する役割です。重要な設計判断を、履歴を残さず上書きしてはいけません。
+Gitのコミット履歴は「何を変更したか」という技術的な記録、`docs/06_Design History（設計履歴)/`配下の個別履歴文書は「なぜ・どう議論して決めたか」を記録する役割です。重要な設計判断を、履歴を残さず上書きしてはいけません。
 
 ---
 
@@ -468,9 +468,9 @@ docs/
 ├── 01_Overview（概要）
 ├── 02_Specification.md（仕様）
 ├── 03_UI_Spec.md
-├── 04_AnalysisPolicy.md（分析）
+├── 04_Analysis Policy (分析)/
 ├── 05_DesignGuide.md
-├── 06_DesignHistory.md
+├── 06_Design History（設計履歴)/
 ├── 07_Roadmap.md（将来）
 ├── 08_Glossary.md（共通言語）
 └── 09_Research（調査・研究）

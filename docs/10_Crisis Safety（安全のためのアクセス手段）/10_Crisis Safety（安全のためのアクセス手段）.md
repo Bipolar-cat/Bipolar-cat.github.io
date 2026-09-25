@@ -1,6 +1,15 @@
-# Crisis Safety（安全のためのアクセス手段）
+# 10_Crisis Safety（安全のためのアクセス手段）
 
-※本docは、2026-08-28 Design History「02_2026-08-28 Project Background Revision and Related Decisions」における三者合意（Crisis Safety文書の番号を`10_`に確定。既存の`00〜09`は変更しない。Affected Filesに「`10_CrisisSafety.md`（新規ファイルとして今後作成予定）」と明記）を受け、その「今後作成予定」のファイルとして今回作成するものです。
+※本docは、2026-08-28 Design History「02_2026-08-28 Project Background Revision and Related Decisions」における三者合意（Crisis Safety文書の番号を`10_`に確定。既存の`00〜09`は変更しない。Affected Filesに「`10_CrisisSafety.md`（新規ファイルとして今後作成予定）」と明記）を受け、その「今後作成予定」のファイルとして作成したものです（`10_CrisisSafety.md`という表記は2026-08-28当時の原決定文書の記載そのものであり、当時の事実として変更していません）。
+
+**表記についての注記・経緯（2026-09-25、複数回の訂正あり）**：
+
+1. 2026-09-22の草案作成時点：フォルダ名・ファイル名・タイトルをすべて「Crisis Safety」（スペースあり）として作成。
+2. 2026-09-25（SE提案・三者確認）：ChatGPT（チャム）が実リポジトリとの整合性の観点から、フォルダ／ファイル名表記のみ「CrisisSafety」（スペースなし、2026-08-28の原決定表記に準拠）とし、文書タイトルは「Crisis Safety」（スペースあり）のまま区別する案を提案。開発者・Claude（くう）を含む三者で確認の上、一旦採用。
+3. 2026-09-25（開発者の最終決定）：開発者（まき）が、表記の一貫性を優先し、フォルダ名・ファイル名・文書タイトルのすべてを「Crisis Safety」（スペースあり）に統一するという最終判断を下した。
+4. 2026-09-25（実リポジトリへの反映完了）：開発者がVS Code上で手作業によりrenameを実施し、実リポジトリの現行パスは`docs/10_Crisis Safety（安全のためのアクセス手段）/10_Crisis Safety（安全のためのアクセス手段）.md`となった。本docのパス・タイトルはこの現行状態と一致している。
+
+同じ方針（英語表記への半角スペース統一）は`06_DesignHistory（設計履歴)`にも適用され、開発者により`06_Design History（設計履歴)`へrename済み。したがって、Design History関連の現在参照はすべて「Design History」（スペースあり）表記で統一する。ただし、2026-08-28当時の原決定文書中の`10_CrisisSafety.md`という記載、および2026-09-22にClaude（くう）が作成した草案`07_CrisisSafety.md`という記載は、いずれも当時の事実であるため変更しない。
 
 ## 0. 位置づけ・前提の整理（重要）
 
@@ -50,15 +59,19 @@
 
 ## 4. 変更履歴・未解決事項
 
-- 本docの内容を変更・追記する場合は、`docs/06_DesignHistory（設計履歴)/`への記録手続きに従う。
+- 本docの内容を変更・追記する場合は、`docs/06_Design History（設計履歴)/`への記録手続きに従う。
 - ファイル番号の確定経緯：2026-08-28 Design History「02_2026-08-28 Project Background Revision and Related Decisions」参照。
 - 未解決の確認事項：
   - 共通指示書ドラフトの⑥Change Rules・⑦Crisis Safety相当部分が、00_Constitutionへ正式に反映されているかどうか（Unknown）
-  - `CLAUDE.md` L140・L485側の記述更新が必要かどうかは別途確認する
+  - `CLAUDE.md` L140・L485側の記述更新が必要かどうかは別途確認する（本docの変更対象としない、別変更として扱う）
+  - `docs/06_Design History（設計履歴)/`配下の他entry（06_Step10 Range Unification・07_Record Mode Storage等）のAffected Filesに残る旧パス表記、および`00_Design History（設計履歴).md`本文中に残る旧表記の修正（開発者・ChatGPT側で進行中）
 
-## 5. 三者合意の経緯（本版・2026-09-22）
+## 5. 三者合意・決定の経緯
 
-- 開発者：Help UI仕様（2.1・2.2）を提案し、ChatGPT（チャム）の精緻化案、Claude（くう）の確認内容の双方に同意。合意成立と判断。
+- 2026-09-22：開発者がHelp UI仕様（2.1・2.2）を提案し、ChatGPT（チャム）の精緻化案、Claude（くう）の確認内容の双方に同意。合意成立と判断。
 - ChatGPT（チャム）：点滅1回・位置/サイズ固定・通常表示への復帰の3点を精緻化案として提案。
 - Claude（くう）：共通指示書ドラフト⑦Crisis Safety相当部分・④No Influenceとの整合性を確認し、適切と判断。
 - 開発者が`grep -Rni -E "Crisis Safety|クライシス|Helpボタン|相談窓口" docs`を実行し、2026-08-28のDesign Historyにファイル番号`10_`確定の記録があることを確認。これを受け、本docのファイル名・引用元記述を修正した。
+- 2026-09-25：ChatGPT（チャム）が実リポジトリとの整合性から、フォルダ／ファイル名表記を「CrisisSafety」（スペースなし）、タイトルを「Crisis Safety」（スペースあり）と区別する案を提案し、開発者・Claude（くう）を含む三者で確認の上、一旦採用。
+- 2026-09-25：開発者（まき）が最終判断として、フォルダ名・ファイル名・タイトルをすべて「Crisis Safety」（スペースあり）に統一することを決定。あわせて`06_DesignHistory`も`06_Design History`へ同様に統一する方針を確認。
+- 2026-09-25：開発者がVS Code上で手作業によりrenameを実施し、`docs/06_Design History（設計履歴)/`・`docs/10_Crisis Safety（安全のためのアクセス手段）/`（いずれもスペースあり）への統一が完了。2026-08-28当時の`10_CrisisSafety.md`、Claudeの2026-09-22草案`07_CrisisSafety.md`という過去の記載は、当時の事実として変更していない。
